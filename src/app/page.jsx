@@ -59,7 +59,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            리뷰를 남길 수 있는 페이지입니다.
+            리뷰를 남길 수 있는 페이지입니다
           </p>
         </a>
 
