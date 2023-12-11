@@ -23,7 +23,7 @@ export default function AddReviewForm() {
       if (!res.ok) {
         throw new Error('Failed to add review')
       }
-      router.push('/')
+      router.push('/review')
       router.refresh()
     } catch (error) {
       console.log(error)
