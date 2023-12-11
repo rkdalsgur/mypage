@@ -40,9 +40,6 @@ export default async function ReviewList() {
 
           <div className="flex gap-2">
             <RemoveBtn id={review._id} />
-            <Link href={`/editreview/${review._id}`}>
-              <HiPencilAlt size={24} />
-            </Link>
           </div>
         </div>
       ))}

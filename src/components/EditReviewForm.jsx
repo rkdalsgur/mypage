@@ -49,9 +49,9 @@ export default function AddReviewForm() {
         />
         <button
           type="submit"
-          className="bg-green-800 text-white font-bold w-fit px-6 py-3 rounded-md"
+          className="bg-blue-100 text-black font-bold w-fit px-6 py-3 rounded-md"
         >
-          Add Review
+          방명록 추가하기
         </button>
       </form>
     </div>

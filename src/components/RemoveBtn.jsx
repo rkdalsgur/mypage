@@ -8,7 +8,7 @@ export default function RemoveBtn({ id }) {
   const router = useRouter()
 
   const removeReview = async () => {
-    const confirmed = confirm(`Are you sure to delete ${id}`)
+    const confirmed = confirm(`정말로 삭제하시겠습니까?`)
     if (confirmed) {
       const res = await fetch(`/api/reviews?id=${id}`, {
         method: 'DELETE',
