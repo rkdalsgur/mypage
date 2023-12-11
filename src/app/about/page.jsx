@@ -24,7 +24,7 @@ export default function Home() {
             className="group rounded-lg border text-center border-transparent px-5 py-4 transition-colors  "
             rel="noopener noreferrer"
           >
-            <h2 className={`mb-3 text-2xl font-semibold`}>
+            <h2 className="mb-3 text-2xl font-semibol">
               방명록 남기러 가기{' '}
               <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
                 -&gt;
